@@ -4,7 +4,7 @@ Playing and pausing videos (YouTube, Vimeo, Wistia) on click (modal open and clo
 
 Clone an example site from Made in Webflow:
 
-link goes here
+https://webflow.com/made-in-webflow/website/video-play-pause-on-modal
 
 ## Vimeo
 
