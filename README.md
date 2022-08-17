@@ -192,6 +192,8 @@ Again, you can use this to seek to any point in the video. You can see the full 
 
 You'll notice that the Wistia setup is different from YouTube and Vimeo. For Wistia we're setting an event listener and using anonymous functions.
 
+To set up your Wistia video, head on over to Wistia and grab the embed code and then bring it into Webflow and add an `Embed` element to the page where you want the video to appear and paste the code in. Once you have that set up and you have a Webflow interaction created to open and close the modal, we'll need to add some JavaScript:
+
 ```js
 document.querySelector("#btnPlay").addEventListener("click", function () {
   _wq.push({
